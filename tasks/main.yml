@@ -1,0 +1,10 @@
+---
+- name: Set resolver for Debian
+  include: debian.yml
+  when: ansible_facts['os_family'] == "Debian"
+
+
+- name: Set resolver for CentOS
+  include: centos.yml
+  when: ansible_facts['os_family'] == "RedHat"
+  

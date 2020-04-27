@@ -13,7 +13,7 @@ mkdir ~/ansible/
 git clone https://github.com/sinahamedheidari/ansible-role-resolver
 mv ansible-role-resolver/main.yml ./ 
 mv ansible-role-resolver/ansible.cfg ./ 
-mv ansible-role-resolver/inventory ./ -R
+mv ansible-role-resolver/inventory ./
 ```
 
 Run with defaults:

@@ -10,7 +10,7 @@ Then it copies your desired dns resolvers to the server.
 Create a directory and clone the repo.
 ```shell
 mkdir ~/ansible/
-git clone git@github.com:sinahamedheidari/ansible-role-resolver.git
+git clone https://github.com/sinahamedheidari/ansible-role-resolver
 mv ansible-role-resolver/main.yml ./ 
 mv ansible-role-resolver/ansible.cfg ./ 
 mv ansible-role-resolver/inventory ./ -R
